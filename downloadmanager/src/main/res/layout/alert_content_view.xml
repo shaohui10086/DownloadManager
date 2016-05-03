@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/download_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="版本更新"
+        android:textSize="16sp" />
+    <com.daimajia.numberprogressbar.NumberProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp" />
+    <TextView
+        android:id="@+id/download_file_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/download_action_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:gravity="center"
+        android:text="取消"/>
+</LinearLayout>
