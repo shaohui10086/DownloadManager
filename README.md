@@ -27,6 +27,6 @@ Gradle：
                 .showFileSize(true)
                 .build();
         manager.download(url, fileUri, listener);  // 开始一个下载任务
-![Demo](https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=2161974600,1993266077&fm=80)
+![Demo](https://github.com/shaohui10086/DownloadManager/blob/master/demo/Gif_20160503_173058.gif)
 # TODO
 * 暂停任务
