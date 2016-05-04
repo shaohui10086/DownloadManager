@@ -9,16 +9,19 @@ DownloadManager是一个支持切换多种下载库的文件下载框架，支�
 
 # 使用
 首先，在AndroidManifest.xml增加两个权限：网络权限和存储读写权限
+
 	<uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 然后引入
 Maven：
+
 	<dependency>
 	<groupId>xyz.shaohui.downloadmanager</groupId>
 	<artifactId>downloadmanager</artifactId>
 	<version>0.5.0</version>
 	<type>pom</type>
 	</dependency>
+
 Gradle：
 	compile 'xyz.shaohui.downloadmanager:downloadmanager:0.5.0'
 
