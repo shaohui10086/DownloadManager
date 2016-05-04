@@ -25,11 +25,11 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void text(String url, String target) {
-        DownloadManager manager = new DownloadManager();
-        AlertDownloadListener listener = new AlertDownloadListener.Builder(this)
+    private void text(String url, String fileUri) {
+        DownloadManager manager = new DownloadManager();  //初始化DownloadManager
+        AlertDownloadListener listener = new AlertDownloadListener.Builder(this)  // 新建一个DownloadListener
                 .showFileSize(true)
                 .build();
-        manager.download(url, target, listener);
+        manager.download(url, fileUri, listener);  // 开始一个下载任务
     }
 }
