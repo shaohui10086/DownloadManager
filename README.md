@@ -6,6 +6,7 @@ DownloadManager是一个支持切换多种下载库的文件下载框架，支�
 * 自定义下载库：实现Downloader接口实现自己的下载库
 * 多个下载监听器选择：AlertDownloadListener,后续会增加更多
 * 自定义下载监听器：实现DowaloadListtener接口实现自己的下载监听器
+
 # 使用
 首先，在AndroidManifest.xml增加两个权限：网络权限和存储读写权限
 	<uses-permission android:name="android.permission.INTERNET"/>
